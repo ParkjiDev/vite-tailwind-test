@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/tailwind.css" />
+    <title>헤더</title>
+  </head>
+  <body>
+    <div class="header w-screen">
+      <div class="top font-pretendard w-[1050px] my-0 mx-auto">
+        <div class="flex justify-end">
+          <a>회원가입</a>
+          <a>로그인</a>
+          <a
+            ><span>고객센터</span
+            ><img class="inline-block" src="/src/assets/arrow-down.png" alt=""
+          /></a>
+        </div>
+        <div class="search flex justify-between">
+          <div class="logo-wrapper flex">
+            <img src="/src/assets/logo.svg" alt="" />
+            <a>마켓칼리</a>
+            <a>뷰티칼리</a>
+          </div>
+          <div class="serach-wrapper">
+            <input type="text" placeholder="검색어를 입력해주세요" />
+          </div>
+          <div class="icon-wrapper flex">
+            <img src="/src/assets/Location.png" alt="" />
+            <img src="/src/assets/Heart.png" alt="" />
+            <img src="/src/assets/Cart.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <nav class="flex justify-between w-[1050px] my-0 mx-auto">
+        <div class="category-wrapper flex">
+          <img src="/src/assets/Hamburger.svg" alt="" />
+          <span>카테고리</span>
+        </div>
+        <ul class="flex">
+          <li>신상품</li>
+          <li>베스트</li>
+          <li>알뜰쇼핑</li>
+          <li>특가/혜택</li>
+        </ul>
+        <a href="#">샛별 하루 배송안내</a>
+      </nav>
+    </div>
+  </body>
+</html>
